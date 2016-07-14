@@ -21,4 +21,5 @@ describe('Component: TodoApp', () => {
     let component = new TodoAppComponent(service);
     expect(component).toBeTruthy();
   }));
+  
 });
