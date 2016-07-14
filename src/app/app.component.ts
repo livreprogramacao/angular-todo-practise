@@ -10,5 +10,5 @@ import { TodoAppComponent } from '../app/todo-app/todo-app.component';
   directives: [TodoAppComponent]
 })
 export class AppComponent {
-  title = 'app works! ...and Deployed!';
+  title = 'app works!';
 }
