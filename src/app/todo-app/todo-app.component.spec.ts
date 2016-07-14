@@ -14,11 +14,11 @@ import { TodoService } from '../todo.service';
 import { TodoAppComponent } from '../todo-app/todo-app.component';
 
 describe('Component: TodoApp', () => {
+
   beforeEachProviders(() => [TodoService]);
-/*
-  it('should create an instance', inject[TodoService], (service) => {
+  
+  it('should create an instance', inject([TodoService], (service: TodoService) => {
     let component = new TodoAppComponent(service);
     expect(component).toBeTruthy();
-  });
-  */
+  }));
 });
